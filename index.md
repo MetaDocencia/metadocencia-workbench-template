@@ -2,8 +2,8 @@
 site: sandpaper::sandpaper_site
 ---
 
-Esta es una nueva lecciónconstruida con [The Carpentries Workbench][workbench]. 
+Esta es una nueva lecciónconstruida con [el template de Carpentries Workbench adaptado por MetaDocencia][workbench]. 
 
 
-[workbench]: https://carpentries.github.io/sandpaper-docs
+[workbench]: https://metadocencia.github.io/metadocencia-workbench-template
 
