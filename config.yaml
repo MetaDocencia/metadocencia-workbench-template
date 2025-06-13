@@ -10,14 +10,20 @@
 # incubator: The Carpentries Incubator
 # Note that you can also use a custom carpentry type. For more info,
 # see the documentation: https://carpentries.github.io/sandpaper-docs/editing.html
-carpentry: 'incubator'
+carpentry: 'metadocencia'
 
 # Custom carpentry description
 # This will be used as the alt text for the logo
 # carpentry_description: "Custom Carpentry"
 
 # Overall title for pages.
-title: 'Lesson Title'
+title: 'título de lección'
+
+# Alt-text description of the lesson.
+carpentry_description: 'MetaDocencia'
+
+# varnish
+varnish: 'MetaDocencia/varnish'
 
 # Date the lesson was created (YYYY-MM-DD, this is empty by default)
 created: '2025-06-13'
