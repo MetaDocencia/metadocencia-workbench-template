@@ -23,7 +23,7 @@ title: 'título de lección'
 carpentry_description: 'MetaDocencia'
 
 # varnish
-varnish: 'MetaDocencia/varnish'
+varnish: 'metadocencia/varnish'
 
 # Date the lesson was created (YYYY-MM-DD, this is empty by default)
 created: '2025-06-13'
