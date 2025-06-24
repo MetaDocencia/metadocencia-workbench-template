@@ -55,3 +55,64 @@ https://metadocencia.github.io/leccion-ejemplo/
 
 Encontrá más materiales y recursos en:  
 🌐 https://www.metadocencia.org
+
+---
+
+# MetaDocencia Reproducible Lesson Template
+
+This repository is an **official MetaDocencia template** to create reproducible lessons using the [Carpentries Workbench](https://carpentries.github.io/sandpaper/), adapted with our custom configuration and style.
+
+> Use this repository as a starting point for your own lessons, directly from GitHub — no local tools needed.
+
+---
+
+## 🚀 How to start a new lesson
+
+### 1. Create a new repository
+
+Click the **“Use this template”** button at the top-right of this repository to create a copy under your GitHub account or organization.
+
+Or go directly to:  
+https://github.com/MetaDocencia/metadocencia-workbench-template/generate
+
+Choose a name for your new repository (e.g., `lesson-my-topic`) and click **Create repository**.
+
+---
+
+### 2. Edit your lesson via GitHub
+
+Once your repository is created, you can edit everything directly in the web interface:
+
+- Lesson episodes are in the `episodes/` folder (each `.md` file is a section).
+- The home page is `index.md`.
+- General configuration is in `config.yaml`.
+
+Use the ✏️ **edit** button in each file to make changes, then click **Commit changes** to save.
+
+> No need for RStudio or command line tools.
+
+---
+
+## 🌐 Automatic publishing
+
+This template is already configured for **automatic GitHub Pages deployment**.
+
+Your lesson site will be built and published at:
+
+```
+https://<your-user-or-org>.github.io/<repository-name>/
+```
+
+Example:  
+https://metadocencia.github.io/lesson-example/
+
+---
+
+## 📬 Contact
+
+Questions or suggestions? Reach us at:  
+📧 infraestructura@metadocencia.org
+
+Explore more of our resources:  
+🌐 https://www.metadocencia.org
+
