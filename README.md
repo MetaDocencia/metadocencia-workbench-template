@@ -10,7 +10,7 @@ Este repositorio es un **template oficial de MetaDocencia** para crear lecciones
 
 ### 1. Crear un nuevo repositorio
 
-Hacé clic en el botón **“Use this template”** en la parte superior derecha de este repositorio para generar una copia en tu cuenta u organización.
+Hacé clic en el botón **“Use this template”** en la parte superior derecha de este repositorio para generar una copia.
 
 También podés acceder directamente a:  
 https://github.com/MetaDocencia/metadocencia-workbench-template/generate
