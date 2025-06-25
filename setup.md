@@ -1,29 +1,23 @@
 ---
-title: Setup
+title: Preparación
 ---
 
-FIXME: Setup instructions live in this document. Please specify the tools and
-the data sets the Learner needs to have installed.
+MODIFICAR: Las instrucciónes previas al curso viven en esta sección en el archivo 'learners/setup.md'. Especificar las herramientas y data sets que tus participantes necesitan instalar previo al curso o lección.
 
 ## Data Sets
 
 <!--
-FIXME: place any data you want learners to use in `episodes/data` and then use
-       a relative link ( [data zip file](data/lesson-data.zip) ) to provide a
-       link to it, replacing the example.com link.
+MODIFICAR: loa datos que van a usarse como materiales, deben alojarse en `episodes/data` y usar un enlace relativo ( [archivo zip de datos](data/lesson-data.zip) ) para mencionarlo.
 -->
-Download the [data zip file](https://example.com/FIXME) and unzip it to your Desktop
+Descargamos el [archivo zip de datos](https://example.com/FIXME) y lo descomprimimos localmente 
 
-## Software Setup
+## Preparación del software
 
 ::::::::::::::::::::::::::::::::::::::: discussion
 
-### Details
+### Detalles
 
-Setup for different systems can be presented in dropdown menus via a `solution`
-tag. They will join to this discussion block, so you can give a general overview
-of the software used in this lesson here and fill out the individual operating
-systems (and potentially add more, e.g. online setup) in the solutions blocks.
+La configuración para diferentes sistemas puede presentarse en menús desplegables mediante una etiqueta `solution`. Estas se integrarán a este bloque de discusión, por lo que aquí podés ofrecer una descripción general del software utilizado en esta lección y completar la información específica para cada sistema operativo (y, si es necesario, agregar más opciones, como la configuración en línea) en los bloques de soluciones.
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -31,7 +25,7 @@ systems (and potentially add more, e.g. online setup) in the solutions blocks.
 
 ### Windows
 
-Use PuTTY
+Usar PuTTY
 
 :::::::::::::::::::::::::
 
@@ -39,7 +33,7 @@ Use PuTTY
 
 ### MacOS
 
-Use Terminal.app
+Usar Terminal.app
 
 :::::::::::::::::::::::::
 
@@ -48,7 +42,7 @@ Use Terminal.app
 
 ### Linux
 
-Use Terminal
+Usar Terminal
 
 :::::::::::::::::::::::::
 
