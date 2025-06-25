@@ -1,111 +1,106 @@
 ---
-title: 'introduction'
+title: 'introducción'
 teaching: 10
 exercises: 2
 ---
 
 :::::::::::::::::::::::::::::::::::::: questions 
 
-- How do you write a lesson using R Markdown and `{sandpaper}`?
+- ¿Cómo se escribe una lección usando R Markdown y `{sandpaper}`?
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::: objectives
 
-- Explain how to use markdown with the new lesson template
-- Demonstrate how to include pieces of code, figures, and nested challenge blocks
+- Explicar cómo usar markdown con la nueva plantilla de lección  
+- Demostrar cómo incluir fragmentos de código, figuras y bloques de actividades anidados
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
-## Introduction
+## Introducción
 
-This is a lesson created via The Carpentries Workbench. It is written in
-[Pandoc-flavored Markdown][pandoc] for static files (with extension `.md`) and
-[R Markdown][r-markdown] for dynamic files that can render code into output
-(with extension `.Rmd`). Please refer to the [Introduction to The Carpentries
-Workbench][carpentries-workbench] for full documentation.
+Esta es una lección creada mediante el template de Workbench adaptada por MetaDocencia, creada por The Carpentries. Está escrita en  
+[Markdown con sintaxis de Pandoc][pandoc] para archivos estáticos (con extensión `.md`) y  
+[R Markdown][r-markdown] para archivos dinámicos que pueden renderizar código y mostrar el resultado  
+(con extensión `.Rmd`). Consultá la [Introducción a The Carpentries  
+Workbench][carpentries-workbench] para ver la documentación completa.
 
-What you need to know is that there are three sections required for a valid
-Carpentries lesson template:
+Hay tres secciones requeridas para una plantilla de lección válida:
 
- 1. `questions` are displayed at the beginning of the episode to prime the
-    learner for the content.
- 2. `objectives` are the learning objectives for an episode displayed with
-    the questions.
- 3. `keypoints` are displayed at the end of the episode to reinforce the
-    objectives.
+ 1. `questions` se muestran al comienzo del episodio para preparar a la persona que aprenderá el contenido.  
+ 2. `objectives` son los objetivos de aprendizaje del episodio y se muestran junto con las preguntas.  
+ 3. `keypoints` se muestran al final del episodio para reforzar los objetivos.
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
 
-Inline instructor notes can help inform instructors of timing challenges
-associated with the lessons. They appear in the "Instructor View"
+Las notas para instructores en línea pueden ayudar a anticipar desafíos y almacenar notas de la persona oradora.  
+Aparecen en la "Vista para instructores".
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::: challenge 
 
-## Challenge 1: Can you do it?
+## Desafío 1: ¿Podés hacerlo?
 
-What is the output of this command?
+¿Cuál es el resultado de este comando?
 
 ```r
-paste("This", "new", "lesson", "looks", "good")
+paste("Esta", "nueva", "lección", "luce", "bien")
 ```
 
 :::::::::::::::::::::::: solution 
 
-## Output
- 
+## Salida
+
 ```output
-[1] "This new lesson looks good"
+[1] "Esta nueva lección luce bien"
 ```
 
 :::::::::::::::::::::::::::::::::
 
 
-## Challenge 2: how do you nest solutions within challenge blocks?
+## Desafío 2: ¿cómo anidar soluciones dentro de bloques de desafío?
 
 :::::::::::::::::::::::: solution 
 
-You can add a line with at least three colons and a `solution` tag.
+Es posible gregar una línea con al menos tres dos puntos y la etiqueta `solution`.
 
 :::::::::::::::::::::::::::::::::
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
-## Figures
+## Figuras
 
-You can include figures generated from R Markdown:
+Podés incluir figuras generadas desde R Markdown:
 
-```{r pyramid, fig.alt = "pie chart illusion of a pyramid", fig.cap = "Sun arise each and every morning"}
+```{r pyramid, fig.alt = "ilusión de gráfico circular de una pirámide", fig.cap = "El sol sale cada mañana"}
 pie(
-  c(Sky = 78, "Sunny side of pyramid" = 17, "Shady side of pyramid" = 5), 
+  c(Sky = 78, "Lado soleado de la pirámide" = 17, "Lado sombreado de la pirámide" = 5), 
   init.angle = 315, 
   col = c("deepskyblue", "yellow", "yellow3"), 
   border = FALSE
 )
 ```
-Or you can use pandoc markdown for static figures with the following syntax:
 
-`![optional caption that appears below the figure](figure url){alt='alt text for
-accessibility purposes'}`
+O podés usar markdown de pandoc para figuras estáticas con la siguiente sintaxis:
 
-![You belong in The Carpentries!](https://raw.githubusercontent.com/carpentries/logo/master/Badge_Carpentries.svg){alt='Blue Carpentries hex person logo with no text.'}
+`![subtítulo opcional que aparece debajo de la figura](url de la figura){alt='texto alternativo para accesibilidad'}`
 
-## Math
+![¡Estás participando de un curso de MetaDocencia!](https://raw.githubusercontent.com/MetaDocencia/varnish/main/inst/pkgdown/assets/assets/images/metadocencia-logo.svg){alt='Logo de MetaDocencia con una manzana y texto del nombre de la Organización.'}
 
-One of our episodes contains $\LaTeX$ equations when describing how to create
-dynamic reports with {knitr}, so we now use mathjax to describe this:
+## Matemática
 
-`$\alpha = \dfrac{1}{(1 - \beta)^2}$` becomes: $\alpha = \dfrac{1}{(1 - \beta)^2}$
+El contenido puede contener ecuaciones en $\LaTeX$ al describir cómo crear  
+informes dinámicos con {knitr}, por lo que usamos MathJax para mostrarlas así:
 
-Cool, right?
+`$ lpha = \dfrac{1}{(1 - eta)^2}$` se convierte en: $ lpha = \dfrac{1}{(1 - eta)^2}$
+
+¿Genial, no?
 
 ::::::::::::::::::::::::::::::::::::: keypoints 
 
-- Use `.md` files for episodes when you want static content
-- Use `.Rmd` files for episodes when you need to generate output
-- Run `sandpaper::check_lesson()` to identify any issues with your lesson
-- Run `sandpaper::build_lesson()` to preview your lesson locally
+- Usá archivos `.md` para episodios con contenido estático  
+- Usá archivos `.Rmd` para episodios que necesiten generar salidas dinámicas  
+- Ejecutá `sandpaper::check_lesson()` para identificar problemas en tu lección  
+- Ejecutá `sandpaper::build_lesson()` para previsualizar tu lección localmente
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
-
