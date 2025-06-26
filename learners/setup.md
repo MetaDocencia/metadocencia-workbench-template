@@ -2,7 +2,7 @@
 title: Preparación
 ---
 
-MODIFICAR: Las instrucciónes previas al curso viven en esta sección en el archivo 'learners/setup.md'. Especificar las herramientas y data sets que tus participantes necesitan instalar previo al curso o lección.
+MODIFICAR: Las instrucciones previas al curso viven en esta sección en el archivo 'learners/setup.md'. Especificar las herramientas y data sets que tus participantes necesitan instalar previo al curso o lección.
 
 ## Data Sets
 
