@@ -1,5 +1,5 @@
 ---
-title: FIXME
+title: MODIFÍCAME
 ---
 
-This is a placeholder file. Please add content here.
+Esto es un archivo placeholder. Puedes añadir contenido aquí.
