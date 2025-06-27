@@ -19,9 +19,6 @@ carpentry: 'metadocencia'
 # Overall title for pages.
 title: 'Título de lección'
 
-# language
-lang: es
-
 # Alt-text description of the lesson.
 carpentry_description: 'MetaDocencia'
 
@@ -93,4 +90,5 @@ profiles:
 includes:
   after_body: assets/includes/footer.html
 
-
+# language
+lang: es
