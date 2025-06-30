@@ -1,4 +1,4 @@
-# Contribuciones y Mantenimiento 
+# Contribuciones y mantenimiento 
 
 ¡Gracias por querer contribuir a MetaDocencia!
 
