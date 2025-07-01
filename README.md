@@ -1,8 +1,10 @@
 # Template de lecciones reproducibles de MetaDocencia
 
-Este repositorio es un **template oficial de MetaDocencia** para crear lecciones reproducibles utilizando [Carpentries Workbench](https://carpentries.github.io/sandpaper/), adaptado con nuestra configuración y estilo.
 
-> Usá este repositorio como punto de partida para tus propias lecciones, directamente desde GitHub, sin necesidad de herramientas locales.
+Este repositorio es un **template oficial de MetaDocencia** para crear cursos y lecciones reproducibles utilizando [Carpentries Workbench](https://carpentries.github.io/sandpaper/), adaptado con nuestra configuración y estilo.
+
+
+> Puedes usar [este repositorio](https://github.com/MetaDocencia/metadocencia-workbench-template) como punto de partida, directamente desde GitHub, sin necesidad de herramientas locales.
 
 ---
 
@@ -10,24 +12,21 @@ Este repositorio es un **template oficial de MetaDocencia** para crear lecciones
 
 ### 1. Crear un nuevo repositorio
 
-Hacé clic en el botón **“Use this template”** en la parte superior derecha de este repositorio para generar una copia.
+Generamos una copia accediendo directamente a: https://github.com/MetaDocencia/metadocencia-workbench-template/generate
 
-También podés acceder directamente a:  
-https://github.com/MetaDocencia/metadocencia-workbench-template/generate
-
-Asigná un nombre a tu nuevo repositorio (por ejemplo, `leccion-mi-tema`) y hacé clic en **Create repository**.
+Asignamos un nombre a tu nuevo repositorio (por ejemplo, `leccion-mi-tema`) y Seleccionamos **Create repository**.
 
 ---
 
 ### 2. Editar la lección desde GitHub
 
-Una vez creado el repositorio, podés comenzar a editarlo directamente desde la interfaz web:
+Una vez creado el repositorio, podemos comenzar a editarlo directamente desde la interfaz web:
 
 - Los episodios están en la carpeta `episodes/` (cada archivo `.md` es una sección de la lección).
 - La página principal está en `index.md`.
 - La configuración general está en `config.yaml`.
 
-Usá el botón de ✏️ **editar** en cada archivo para modificarlo, y luego hacé clic en **Commit changes** para guardar.
+Con el botón de ✏️ **editar** en cada archivo podemos modificarlo, y luego seleccionamos **Commit changes** para guardar.
 
 > No necesitás usar RStudio ni línea de comandos.
 
@@ -35,7 +34,7 @@ Usá el botón de ✏️ **editar** en cada archivo para modificarlo, y luego ha
 
 ## 🌐 Publicación automática
 
-Este template ya está configurado para publicarse automáticamente con **GitHub Pages** cada vez que edites el repositorio.
+Este template ya está configurado para publicarse automáticamente con **GitHub Pages** cada vez que editemos el repositorio.
 
 El sitio se generará y estará disponible en la siguiente dirección:
 
@@ -50,10 +49,10 @@ https://metadocencia.github.io/leccion-ejemplo/
 
 ## 📬 Contacto
 
-¿Tenés dudas? Escribinos a:  
+¿Tienes dudas? Escríbenos a:  
 📧 infraestructura@metadocencia.org
 
-Encontrá más materiales y recursos en:  
+Puedes encontrar más materiales y recursos en:  
 🌐 https://www.metadocencia.org
 
 ---
@@ -70,9 +69,7 @@ This repository is an **official MetaDocencia template** to create reproducible 
 
 ### 1. Create a new repository
 
-Click the **“Use this template”** button at the top-right of this repository to create a copy under your GitHub account or organization.
-
-Or go directly to:  
+Go directly to:  
 https://github.com/MetaDocencia/metadocencia-workbench-template/generate
 
 Choose a name for your new repository (e.g., `lesson-my-topic`) and click **Create repository**.
@@ -87,7 +84,7 @@ Once your repository is created, you can edit everything directly in the web int
 - The home page is `index.md`.
 - General configuration is in `config.yaml`.
 
-Use the ✏️ **edit** button in each file to make changes, then click **Commit changes** to save.
+Use the ✏️ **edit** button in each file to make changes, then select **Commit changes** to save.
 
 > No need for RStudio or command line tools.
 
@@ -115,4 +112,3 @@ Questions or suggestions? Reach us at:
 
 Explore more of our resources:  
 🌐 https://www.metadocencia.org
-
