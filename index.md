@@ -4,13 +4,11 @@ site: sandpaper::sandpaper_site
 
 # Template de lecciones reproducibles de MetaDocencia
 
-Este es un nuevo curso o lección y fue construido a partir del [template de Carpentries Workbench adaptado por MetaDocencia][workbench]. 
 
-[workbench]: https://metadocencia.github.io/metadocencia-workbench-template
+Este repositorio es un **template oficial de MetaDocencia** para crear cursos y lecciones reproducibles utilizando [Carpentries Workbench](https://carpentries.github.io/sandpaper/), adaptado con nuestra configuración y estilo.
 
-Este repositorio es un **template oficial de MetaDocencia** para crear lecciones reproducibles utilizando [Carpentries Workbench](https://carpentries.github.io/sandpaper/), adaptado con nuestra configuración y estilo.
 
-> Usá este repositorio como punto de partida para tus propias lecciones, directamente desde GitHub, sin necesidad de herramientas locales.
+> Usá [este repositorio](https://github.com/MetaDocencia/metadocencia-workbench-template) como punto de partida, directamente desde GitHub, sin necesidad de herramientas locales.
 
 ---
 
