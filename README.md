@@ -32,11 +32,23 @@ Con el botón de ✏️ **editar** en cada archivo podemos modificarlo, y luego 
 
 ---
 
-## 🌐 Publicación automática
+## 🌐 Publicación del sitio en GitHub Pages
 
-Este template ya está configurado para publicarse automáticamente con **GitHub Pages** cada vez que editemos el repositorio.
+Para habilitar la publicación automática del sitio web de la lección desde GitHub Pages:
 
-El sitio se generará y estará disponible en la siguiente dirección:
+1. Desde el repositorio, seleccionamos **Settings > Pages**.
+2. En la sección **"Source"**, configuramos:
+   - **Branch**: `gh-pages`
+   - **Carpeta**: `/ (root)`
+3. Seleccionamos **“Save”**.
+
+### Verificación de la publicación
+
+1. Editamos cualquier archivo de la lección desde GitHub (por ejemplo, un episodio).
+2. GitHub ejecutará automáticamente el flujo de publicación.
+3. Podemos ver el progreso en la pestaña **Actions** del repositorio.
+4. Una vez finalizado el proceso, el sitio estará disponible en:
+
 
 ```
 https://<usuario-o-organización>.github.io/<nombre-del-repo>/
@@ -90,13 +102,24 @@ Use the ✏️ **edit** button in each file to make changes, then select **Commi
 
 ---
 
-## 🌐 Automatic publishing
+## Publishing the Site on GitHub Pages
 
-This template is already configured for **automatic GitHub Pages deployment**.
+To enable automatic publication of the lesson website using GitHub Pages, follow these steps:
 
-Your lesson site will be built and published at:
+1. From the repository, click **Settings > Pages**.
+2. Under **"Source"**, configure:
+   - **Branch**: `gh-pages`
+   - **Folder**: `/ (root)`
+3. Click **“Save”**.
 
-```
+### Verifying the publication
+
+1. Edit any file in the lesson repository (e.g., an episode).
+2. GitHub will automatically trigger the publishing workflow.
+3. You can monitor the process under the **Actions** tab.
+4. Once the workflow completes, the site will be available at:
+
+``` 
 https://<your-user-or-org>.github.io/<repository-name>/
 ```
 
