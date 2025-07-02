@@ -32,15 +32,27 @@ Una vez creado el repositorio, podemos comenzar a editarlo directamente desde la
 
 Con el botón de ✏️ **editar** en cada archivo podemos modificarlo, y luego seleccionamos **Commit changes** para guardar.
 
-> No necesitás usar RStudio ni línea de comandos.
+> No es necesario saber usar RStudio ni línea de comandos.
 
 ---
 
-## 🌐 Publicación automática
+## 🌐 Publicación del sitio en GitHub Pages
 
-Este template ya está configurado para publicarse automáticamente con **GitHub Pages** cada vez que editemos el repositorio.
+Para habilitar la publicación automática del sitio web de la lección desde GitHub Pages:
 
-El sitio se generará y estará disponible en la siguiente dirección:
+1. Desde el repositorio, seleccionamos **Settings > Pages**.
+2. En la sección **"Source"**, configuramos:
+   - **Branch**: `gh-pages`
+   - **Carpeta**: `/ (root)`
+3. Seleccionamos **“Save”**.
+
+### Verificación de la publicación
+
+1. Editamos cualquier archivo de la lección desde GitHub (por ejemplo, un episodio).
+2. GitHub ejecutará automáticamente el flujo de publicación.
+3. Podemos ver el progreso en la pestaña **Actions** del repositorio.
+4. Una vez finalizado el proceso, el sitio estará disponible en:
+
 
 ```
 https://<usuario-o-organización>.github.io/<nombre-del-repo>/
