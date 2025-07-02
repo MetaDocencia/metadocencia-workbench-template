@@ -288,19 +288,37 @@ archivo <code>.md</code> es una sección de la lección).</li>
 modificarlo, y luego seleccionamos <strong>Commit changes</strong> para
 guardar.</p>
 <blockquote>
-<p>No necesitás usar RStudio ni línea de comandos.</p>
+<p>No es necesario saber usar RStudio ni línea de comandos.</p>
 </blockquote>
 <hr></div>
 </div>
 <div class="section level2">
-<h2 id="publicación-automática">🌐 Publicación automática<a class="anchor" aria-label="anchor" href="#publicaci%C3%B3n-autom%C3%A1tica"></a></h2>
-<p>Este template ya está configurado para publicarse automáticamente con
-<strong>GitHub Pages</strong> cada vez que editemos el repositorio.</p>
-<p>El sitio se generará y estará disponible en la siguiente
-dirección:</p>
-<pre><code>https://&lt;usuario-o-organización&gt;.github.io/&lt;nombre-del-repo&gt;/</code></pre>
+<h2 id="publicación-del-sitio-en-github-pages">🌐 Publicación del sitio en GitHub Pages<a class="anchor" aria-label="anchor" href="#publicaci%C3%B3n-del-sitio-en-github-pages"></a></h2>
+<p>Para habilitar la publicación automática del sitio web de la lección
+desde GitHub Pages:</p>
+<ol style="list-style-type: decimal"><li>Desde el repositorio, seleccionamos <strong>Settings &gt;
+Pages</strong>.</li>
+<li>En la sección <strong>“Source”</strong>, configuramos:
+<ul><li>
+<strong>Branch</strong>: <code>gh-pages</code>
+</li>
+<li>
+<strong>Carpeta</strong>: <code>/ (root)</code>
+</li>
+</ul></li>
+<li>Seleccionamos <strong>“Save”</strong>.</li>
+</ol><div class="section level3">
+<h3 id="verificación-de-la-publicación">Verificación de la publicación<a class="anchor" aria-label="anchor" href="#verificaci%C3%B3n-de-la-publicaci%C3%B3n"></a></h3>
+<ol style="list-style-type: decimal"><li>Editamos cualquier archivo de la lección desde GitHub (por ejemplo,
+un episodio).</li>
+<li>GitHub ejecutará automáticamente el flujo de publicación.</li>
+<li>Podemos ver el progreso en la pestaña <strong>Actions</strong> del
+repositorio.</li>
+<li>Una vez finalizado el proceso, el sitio estará disponible en:</li>
+</ol><pre><code>https://&lt;usuario-o-organización&gt;.github.io/&lt;nombre-del-repo&gt;/</code></pre>
 <p>Por ejemplo:<br><a href="https://metadocencia.github.io/leccion-ejemplo/" class="external-link uri">https://metadocencia.github.io/leccion-ejemplo/</a></p>
 <hr></div>
+</div>
 <div class="section level2">
 <h2 id="contacto">📬 Contacto<a class="anchor" aria-label="anchor" href="#contacto"></a></h2>
 <p>¿Tienes dudas? Escríbenos a:<br>
