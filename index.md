@@ -71,9 +71,5 @@ https://metadocencia.github.io/leccion-ejemplo/
 Puedes encontrar más materiales y recursos en:  
 🌐 https://www.metadocencia.org
 
----
-
-Explore more of our resources:  
-🌐 https://www.metadocencia.org
 
 
