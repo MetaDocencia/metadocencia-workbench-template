@@ -1,0 +1,26 @@
+{
+  "title": "FIXME Título corto y claro de la lección",
+  "upload_type": "lesson",                // No cambiar salvo que la subida NO sea una lección
+  "description": "FIXME Resumen de 2-3 líneas: público objetivo y objetivos de aprendizaje principales.",
+  "creators": [
+    {
+      "name": "FIXME, Nombre",
+      "affiliation": "FIXME Organización o institución",
+      "orcid": "0000-0000-0000-0000"      // Opcional; borrar la línea si no hay ORCID
+    }
+  ],
+  "license": "cc-by-4.0",                 // Mantener salvo que use otro tipo de licencia
+  "version": "FIXME v0.1-dev",
+  "keywords": [
+    "FIXME palabra-clave 1",
+    "palabra-clave 2"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/MetaDocencia/FIXME",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ],
+  "notes": "FIXME Instrucciones para citar la lección, agradecimientos, etc."
+}
