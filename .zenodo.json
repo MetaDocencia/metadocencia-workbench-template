@@ -9,10 +9,10 @@
     }
   ],
   "license": "cc-by-4.0",
-  "version": "FIXME v0.1-dev",
+  "version": "v0.9-test",
   "keywords": [
-    "FIXME palabra-clave 1",
-    "palabra-clave 2"
+    "plantilla",
+    "cursos"
   ],
   "related_identifiers": [
     {
@@ -21,5 +21,5 @@
       "scheme": "url"
     }
   ],
-  "notes": "FIXME Instrucciones para citar la lección, agradecimientos, etc."
+  "notes": "Instrucciones para citar la lección, agradecimientos, etc."
 }
