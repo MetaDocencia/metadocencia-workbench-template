@@ -1,15 +1,15 @@
 {
   "title": "MetaDocencia Workbench Template",
-  "upload_type": "lesson",                // No cambiar salvo que la subida NO sea una lección
+  "upload_type": "lesson",
   "description": "Template adaptado de The Carpentries Workbench",
   "creators": [
     {
       "name": "MetaDocencia",
       "affiliation": "MetaDocencia",
-      "orcid": "0000-0000-0000-0000"      // Opcional; borrar la línea si no hay ORCID
+      "orcid": "0000-0000-0000-0000"
     }
   ],
-  "license": "cc-by-4.0",                 // Mantener salvo que use otro tipo de licencia
+  "license": "cc-by-4.0",
   "version": "FIXME v0.1-dev",
   "keywords": [
     "FIXME palabra-clave 1",
