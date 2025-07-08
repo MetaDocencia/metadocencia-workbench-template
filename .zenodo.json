@@ -1,10 +1,10 @@
 {
-  "title": "FIXME Título corto y claro de la lección",
+  "title": "MetaDocencia Workbench Template",
   "upload_type": "lesson",                // No cambiar salvo que la subida NO sea una lección
-  "description": "FIXME Resumen de 2-3 líneas: público objetivo y objetivos de aprendizaje principales.",
+  "description": "Template adaptado de The Carpentries Workbench",
   "creators": [
     {
-      "name": "FIXME, Nombre",
+      "name": "MetaDocencia",
       "affiliation": "FIXME Organización o institución",
       "orcid": "0000-0000-0000-0000"      // Opcional; borrar la línea si no hay ORCID
     }
