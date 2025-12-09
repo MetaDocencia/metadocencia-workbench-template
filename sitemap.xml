@@ -52,6 +52,9 @@
     <loc>https://template-source.github.io/lesson-example/instructor/reference.html</loc>
   </url>
   <url>
+    <loc>https://template-source.github.io/lesson-example/instructor/references.html</loc>
+  </url>
+  <url>
     <loc>https://template-source.github.io/lesson-example/instructor-notes.html</loc>
   </url>
   <url>
@@ -65,5 +68,8 @@
   </url>
   <url>
     <loc>https://template-source.github.io/lesson-example/reference.html</loc>
+  </url>
+  <url>
+    <loc>https://template-source.github.io/lesson-example/references.html</loc>
   </url>
 </urlset>
