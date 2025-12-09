@@ -1,5 +1,5 @@
 ---
-title: Referencia
+title: Referencias
 ---
 
 ## Glosario
