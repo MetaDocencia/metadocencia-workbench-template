@@ -1,5 +1,6 @@
 # Template de lecciones reproducibles de MetaDocencia
 
+MetaDocencia. (2026, febrero 26). Formación para enseñar - template. Zenodo. https://doi.org/10.5281/zenodo.18790795
 
 Este repositorio es un **template oficial de MetaDocencia** para crear cursos y lecciones reproducibles utilizando [Carpentries Workbench](https://carpentries.github.io/sandpaper/), adaptado con nuestra configuración y estilo.
 
